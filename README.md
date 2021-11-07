@@ -20,6 +20,10 @@ The checklist below will make sure you don't miss any. The items are ordered fro
 
 - [ ] My game offers a smooth locomotion mode.
 
+- [ ] Players can choose between head-based or controller-based movement. [^controller_head_based]
+
+[^controller_head_based]: Some games also offer "hybrid" options where the movement vector is derived from an average between the head and the controller. Other games also can figure out the movement direction via additional hardware such as hip trackers or [DecaMove](https://www.deca.net/decamove/).
+
 - [ ] Players can tweak the movement speed multiplier in the options.
 
 - If my game has a sprint mechanic, players can choose how to activate it between the following modes:
@@ -68,6 +72,10 @@ The checklist below will make sure you don't miss any. The items are ordered fro
 
 - [ ] My game allows controller-based turning to be completely disabled for players desiring a more immersive room-scale experience and to avoid accidental thumbstick presses.
 
+#### Left-Handed Support
+
+- [ ] My game allows switching the role of the left and right thumbsticks to support left-handed players.
+
 #### Teleportation
 
 - [ ] My game offers a teleportation locomotion mode. [^teleportation_bad]
@@ -115,6 +123,8 @@ The checklist below will make sure you don't miss any. The items are ordered fro
 - [ ] My game allows players to scale the game world by an arbitrary factor in the options. [^why_world_scale]
 
 [^why_world_scale]: People come in all sizes and shapes. As a developer, you design the scale of the world to suit your size and shape. Your players might be "giants" compared to you, or "tiny" compared to you. If you are worried about the balance of the game or worried about unfair advantages, use common sense. If the game is single-player, then it doesn't really matter -- the goal is for players to have fun and feel comfortable. If the game is multi-player, either limit the scaling factor to a narrow range, or do not introduce it at all.
+
+    A reasonable way of implementing world scale is by simply scaling the player and related values, rather than scaling the world.
 
 ### Player Profile Management
 
