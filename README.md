@@ -18,7 +18,9 @@ The checklist below will make sure you don't miss any. The items are ordered fro
 
 #### Teleportation
 
-- [ ] My game offers a teleportation locomotion mode.
+- [ ] My game offers a teleportation locomotion mode. [^teleportation_bad]
+
+[^teleportation_bad]: If you think that teleportation is an outdated locomotion technique or that it doesn't suit your game, please [read my comment regarding that on Reddit](https://old.reddit.com/r/virtualreality/comments/qothkl/i_made_a_checklist_of_features_that_vr_developers/hjpev21/).
 
 - Players can choose between different teleportation visual effects to reduce motion sickness:
 
