@@ -145,8 +145,5 @@ Is something missing from the checklist? Create an [issue](https://github.com/Su
 Check out [**Quake VR**](https://www.youtube.com/watch?v=MBoI16z8Nxg), my free and open-source Quake mod that turns the 1996 classic into a first-class PCVR experience!
 
 <p align="center">
-    
-[![Quake VR - Release Trailer (v0.0.5) [Multiplayer, Dissolution of Eternity]
-HERE](https://img.youtube.com/vi/MBoI16z8Nxg/0.jpg)](https://www.youtube.com/watch?v=MBoI16z8Nxg)
-
+  <a href="https://www.youtube.com/watch?v=MBoI16z8Nxg"><img src="https://img.youtube.com/vi/MBoI16z8Nxg/0.jpg"></img></a>
 </p>
