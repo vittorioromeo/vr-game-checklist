@@ -6,6 +6,8 @@ So, you're making a Virtual Reality game -- great! This checklist will help you 
 
 The checklist below will make sure you don't miss any. The items are ordered from the most important to the least important. Not all items are applicable to every game, so please use your common sense.
 
+*(Note: I am not trying to say that every single checkbox should be ticked, but rather that a developer has at least gone though all of them and made a conscious decision regarding them.)*
+
 ## Checklist
 
 ### Locomotion Options
