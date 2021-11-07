@@ -116,3 +116,6 @@ The checklist below will make sure you don't miss any. The items are ordered fro
 
 [^controller_offset_adjustment]: This issue is way less common than controller angle issues, but it still possible to encounter it with games that were tested on only a specific set of controllers. Sometimes the in-game hands' positions do not match the controller positions in the real world. Rather than hardcoding offsets for each possible VR setup in existence, let players specify them in the options.
 
+## Contributing
+
+Is something missing from the checklist? Create an [issue](https://github.com/SuperV1234/vr-game-checklist/issues) to discuss it, or directly contribute something new by opening a [pull request](https://github.com/SuperV1234/vr-game-checklist/pulls).
