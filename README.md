@@ -166,7 +166,7 @@ The checklist below will make sure you don't miss any. The items are ordered fro
 
 ### UI 
 
-- [ ] The distance of UI element in my games is appropriate to be in focus. [^ui_focus_distance]
+- [ ] UI elements in my game are drawn at an appropriate distance, in order to be in focus. [^ui_focus_distance]
 
 [^ui_focus_distance]: Different HMDs have different in-game distances from the player camera at which the image will appear in focus. Your UI should be drawn at those distances to ensure readability.
 
