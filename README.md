@@ -30,6 +30,8 @@ The checklist below will make sure you don't miss any. The items are ordered fro
 
   - [ ] By keeping the thumbstick pressed.
 
+  - [ ] By pressing the thumbstick once, then releasing it. (Sprinting will continue until the player stops moving.)
+
   - [ ] By keeping an arbitrary button (chosen by players) pressed.
 
   - [ ] By arm-swinging or putting the arms down to the sides.
