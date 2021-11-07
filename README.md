@@ -14,7 +14,7 @@ The checklist below will make sure you don't miss any. The items are ordered fro
 
 - [ ] My game offers a teleportation locomotion mode.
 
-- My game offers different visual effects to reduce motion sickness:
+- My game offers different teleportation visual effects to reduce motion sickness:
 
     - [ ] Instant teleportation.
 
@@ -28,17 +28,25 @@ The checklist below will make sure you don't miss any. The items are ordered fro
 
 - [ ] My game offers a smooth locomotion mode.
 
-- [ ] Players can tweak the movement speed in the options.
+- [ ] Players can tweak the movement speed multiplier in the options.
 
 - If my game has a sprint mechanic, it lets the players choose how to activate it between the following modes:
   
-  - [ ] By quickly tapping the same direction twice on the thumbstick.
+  - [ ] By quickly tapping the same direction twice on the thumbstick. [^double_tap_sprint]
+
+  [^double_tap_sprint]: Double-tap sprinting is especially important for Valve Index controller owners, as it has been widely reported that keeping the thumbstick pressed down can lead to thumbstick drift.
 
   - [ ] By keeping the thumbstick pressed.
 
   - [ ] By keeping an arbitrary button (chosen by the player) pressed.
 
   - [ ] By arm-swinging or putting the arms down to the sides.
+
+- [ ] Players can fine-tune their in-game movement speed by controlling how far they push the thumbstick in one direction.
+
+- My game offers different smooth locomotion visual effects to reduce motion sickness:
+
+    - [ ] Artificially decrease FoV to a user-specified amount.
   
 ### Turning Options
   
@@ -60,7 +68,51 @@ The checklist below will make sure you don't miss any. The items are ordered fro
 
     - [ ] I set no arbitrary restriction on the speed -- it can be fine-tuned to any value the player desires.
 
+- [ ] Players can fine-tune their in-game turning speed by controlling how far they push the thumbstick in one direction.
+
 #### No Turning
 
-- [ ] My game allows controller-based turning to be completely disabled for players desiring a more immersive room-scale experience.
+- [ ] My game allows controller-based turning to be completely disabled for players desiring a more immersive room-scale experience and to avoid accidental thumbstick presses.
+
+### Crouching
+
+- [ ] My game allows the player to physically crouch in real life, adjusting the in-game hitbox and movement speed accordingly.
+
+- [ ] My game allows the player to toggle crouching by pressing an arbitrary button (chosen by the player).
+
+- [ ] My game allows the player to tweak their character's posture (from standing up to crouching) by using a thumbstick.
+
+### Controller Angle Adjustments
+
+- [ ] My game allows the player to finely tweak the in-game pitch of held objects and weapons. [^controller_pitch_adjustment]
+
+[^controller_pitch_adjustment]: This is massively important to guarantee that a weapon will point in the exact direction player expect it to, and to ensure consistent aiming between games. Some games, for example, aim the weapon too low (towards the ground) when using Valve Index controllers compared to Oculus Rift controllers. Providing an adjustable pitch allows players to decide where they want their weapon to aim.
+
+- [ ] My game allows the player to finely tweak the in-game yaw and roll of held objects and weapons. [^controller_yaw_roll_adjustment]
+
+[^controller_yaw_roll_adjustment]: This issue is less common than the pitch one, but some games have incorrect yaw/roll rotation of a held weapon in respect to the controller. Crisis VRigade 2, for example, points the weapon a few extra degrees towards the left with Valve Index controllers, forcing players to uncomfortably aim in the wrong direction to hit the target. Providing an adjustable yaw/roll allows players to decide where they want their weapon to aim.
+
+### Height Adjustment
+
+- [ ] My game allows the player to calibrate their character's height to their real-life height.
+
+    - [ ] The automatically chosen height can be manually tweaked by the player in the options.
+
+### World Scale Adjustment
+
+- [ ] My game allows the player to scale the game world by an arbitrary factor in the options.
+
+### Player Profile Management
+
+- [ ] My game allows different players to store their settings and tweaks in profiles.
+
+    - [ ] Profiles can be changed on the fly to make it easier for multiple people to swap in and out of gameplay.
+
+    - [ ] There is no limit to how many profiles can be saved and loaded.
+
+### Controller Offset Adjustments
+
+- [ ] My game allows the player to specify arbitrary X, Y, and Z offsets for the controller positions. [^controller_offset_adjustment]
+
+[^controller_offset_adjustment]: This issue is way less common than controller angle issues, but it still possible to encounter it with games that were tested on only a specific set of controllers. Sometimes the in-game hands' positions do not match the controller positions in the real world. Rather than hardcoding offsets for each possible VR setup in existence, let players specify them in the options.
 
