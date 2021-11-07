@@ -24,9 +24,9 @@ The checklist below will make sure you don't miss any. The items are ordered fro
 
     - [ ] Smooth teleportation (the in-game character very quickly dashes from location A to location B).
 
-- [ ] Players can choose the direction they will face after teleporting by using the thumbstick (a-la Robo Recall). [^robo_recall_teleportation]
+- [ ] Optionally, players can choose the direction they will face after teleporting by using the thumbstick (a-la Robo Recall). [^robo_recall_teleportation]
 
-[^robo_recall_teleportation]: If you are not familiar with Robo Recall teleporation, [this video](https://youtu.be/gBZcN2NPLb8?t=188) shows exactly how it works. 
+[^robo_recall_teleportation]: If you are not familiar with Robo Recall teleporation, [this video](https://youtu.be/gBZcN2NPLb8?t=188) shows exactly how it works. Note that this behavior should be optional, as some people might feel disoriented when the direction is changed after teleportation, and it might be easy to accidentally turn the thumbstick in the wrong direction during teleportation.
 
 #### Smooth Locomotion
 
@@ -135,3 +135,7 @@ The checklist below will make sure you don't miss any. The items are ordered fro
 ## Contributing
 
 Is something missing from the checklist? Create an [issue](https://github.com/SuperV1234/vr-game-checklist/issues) to discuss it, or directly contribute something new by opening a [pull request](https://github.com/SuperV1234/vr-game-checklist/pulls).
+
+## Self-Promotion
+
+Check out [Quake VR](https://www.youtube.com/watch?v=MBoI16z8Nxg) my PCVR mod for Quake that turns it into a first-class VR experience!
