@@ -132,6 +132,8 @@ The checklist below will make sure you don't miss any. The items are ordered fro
     
 - [ ] For accessibility reasons, my game allows to keep holding a weapon even if the controller is not being held (e.g. not pressing the side button on Oculus controllers or not physically grabbing the Valve Index controller).
 
+- [ ] If my game ends up with a system where the current weapon is glued to the player's hand, it will provide an option to switch hands for left-handed players.
+
 ## Contributing
 
 Is something missing from the checklist? Create an [issue](https://github.com/SuperV1234/vr-game-checklist/issues) to discuss it, or directly contribute something new by opening a [pull request](https://github.com/SuperV1234/vr-game-checklist/pulls).
