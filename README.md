@@ -4,11 +4,11 @@
 
 ## Introduction
 
-So, you're making a Virtual Reality game -- that's great! This checklist will help you and your team deliver the best possible experience for your users. Just as it is a sin to release a non-VR FPS game without a FoV slider or mouse sensitivity options, there are many settings and options that any VR game should have.
+So, you're making a Virtual Reality game -- that's great! This checklist will help you and your team deliver the best possible experience for your users. Just as it is a sin to release a non-VR FPS game without a FoV slider or mouse sensitivity options, there are many settings and options that most VR games should have.
 
 The checklist below will make sure you don't miss any. The items are ordered from the most important to the least important. Not all items are applicable to every game, so please use your common sense.
 
-*(Note: I am not saying that every single checkbox should be ticked, but rather you should at least go though and evaluate all of them.)*
+*(Note: I am not saying that every single checkbox should be ticked, but you should at least evaluate all of them.)*
 
 
 
