@@ -4,7 +4,7 @@
 
 ## Introduction
 
-So, you're making a Virtual Reality game -- that's great! This checklist will help you and your team deliver the best possible experience for your users. Just as it is a sin to release a non-VR FPS game without a FoV slider or mouse sensitivity options, there are many settings and options that most VR games should have.
+So, you're making a Virtual Reality game -- that's great! This checklist will help you and your team deliver the best possible experience for your users. Just as it is a *sin* to release a non-VR FPS game without a FoV slider or mouse sensitivity options, there are many settings and options that most VR games should have.
 
 The checklist below will make sure you don't miss any. The items are ordered from the most important to the least important. Not all items are applicable to every game, so please use your common sense.
 
@@ -70,7 +70,7 @@ The checklist below will make sure you don't miss any. The items are ordered fro
 
 #### No Turning
 
-- [ ] My game allows controller-based turning to be completely disabled for players desiring a more immersive room-scale experience and to avoid accidental thumbstick presses.
+- [ ] My game allows controller-based turning to be completely disabled for players desiring a more immersive room-scale experience and to prevent accidental thumbstick inputs.
 
 #### Left-Handed Support
 
@@ -92,6 +92,10 @@ The checklist below will make sure you don't miss any. The items are ordered fro
 
 - [ ] Optionally, players can choose the direction they will face after teleporting by using the thumbstick (a-la Robo Recall). [^robo_recall_teleportation]
 
+- [ ] Enabling teleportation is not mutually exclusive with enabling smooth locomotion. [^both_teleport_and_smooth_locomotion]
+
+[^both_teleport_and_smooth_locomotion]: Some players who are in the process of getting their "VR legs" prefer moving large distances via teleportation, yet still having the ability to fine-tune their position and react more quickly to in-game events by (sparingly) using smooth locomotion. Allowing both locomotion to coexist is helpful for these players.
+
 [^robo_recall_teleportation]: If you are not familiar with Robo Recall teleporation, [this video](https://youtu.be/gBZcN2NPLb8?t=188) shows exactly how it works. Note that this behavior should be optional, as some people might feel disoriented when the direction is changed after teleportation, and it might be easy to accidentally turn the thumbstick in the wrong direction during teleportation.
 
 ### Crouching
@@ -106,7 +110,9 @@ The checklist below will make sure you don't miss any. The items are ordered fro
 
 - [ ] My game allows players to finely tweak the in-game pitch of held objects and weapons. [^controller_pitch_adjustment]
 
-[^controller_pitch_adjustment]: This is massively important to guarantee that a weapon will point in the exact direction player expect it to, and to ensure consistent aiming between games. Some games, for example "Stride", aim the weapon too low (towards the ground) when using Valve Index controllers compared to Oculus Rift controllers. Providing an adjustable pitch allows players to decide where they want their weapon to aim.
+[^controller_pitch_adjustment]: This is massively important to guarantee that a weapon will point in the exact direction player expect it to, and to ensure consistent aiming between games. Some games, for example "Stride", aim the weapon too low (towards the ground) when using Valve Index controllers compared to Oculus Rift controllers. Providing an adjustable pitch allows players to decide where they want their weapon to aim. 
+
+    Frankly, this should be something supported by the runtime (e.g. SteamVR). However, [they do not seem to care](https://github.com/ValveSoftware/openvr/issues/1262).
 
 - [ ] My game allows players to finely tweak the in-game yaw and roll of held objects and weapons. [^controller_yaw_roll_adjustment]
 
@@ -157,6 +163,12 @@ The checklist below will make sure you don't miss any. The items are ordered fro
 ### Performance
 
 - [ ] My game reuses the right/left eye render for the PC monitor instead of rendering a third time.
+
+### UI 
+
+- [ ] The distance of UI element in my games is appropriate to be in focus. [^ui_focus_distance]
+
+[^ui_focus_distance]: Different HMDs have different in-game distances from the player camera at which the image will appear in focus. Your UI should be drawn at those distances to ensure readability.
 
 
 
