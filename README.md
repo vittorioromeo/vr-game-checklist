@@ -100,7 +100,9 @@ The checklist below will make sure you don't miss any. The items are ordered fro
 
 ### World Scale Adjustment
 
-- [ ] My game allows the player to scale the game world by an arbitrary factor in the options.
+- [ ] My game allows the player to scale the game world by an arbitrary factor in the options. [^why_world_scale]
+
+[^why_world_scale]: People come in all sizes and shapes. As a developer, you design the scale of the world to suit your size and shape. Your players might be "giants" compared to you, or "tiny" compared to you. If you are worried about the balance of the game or worried about unfair advantages, use common sense. If the game is single-player, then it doesn't really matter -- the goal is for the player to have fun and feel comfortable. If the game is multi-player, either limit the scaling factor to a narrow range, or do not introduce it at all.
 
 ### Player Profile Management
 
