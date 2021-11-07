@@ -1,5 +1,7 @@
 # vr-game-checklist
 
+
+
 ## Introduction
 
 So, you're making a Virtual Reality game -- that's great! This checklist will help you and your team deliver the best possible experience for your users. Just as it is a sin to release a non-VR FPS game without a FoV slider or mouse sensitivity options, there are many settings and options that any VR game should have.
@@ -7,6 +9,8 @@ So, you're making a Virtual Reality game -- that's great! This checklist will he
 The checklist below will make sure you don't miss any. The items are ordered from the most important to the least important. Not all items are applicable to every game, so please use your common sense.
 
 *(Note: I am not saying that every single checkbox should be ticked, but rather you should at least go though and evaluate all of them.)*
+
+
 
 ## Checklist
 
@@ -136,9 +140,27 @@ The checklist below will make sure you don't miss any. The items are ordered fro
     
     - [ ] Left-handed players will be able to switch the default hand.
 
+### Performance
+
+- [ ] My game reuses the right/left eye render for the PC monitor instead of rendering a third time.
+
+
+
+## Extras and Nice-To-Haves
+
+### Computer Interaction
+
+- [ ] My game allows settings to be configured on the computer via mouse/keyboard on the fly, while the game is running.
+
+- [ ] Spectators can interact on the computer while players are in VR, for example by changing or restarting levels, or tweaking options.
+
+
+
 ## Contributing
 
 Is something missing from the checklist? Create an [issue](https://github.com/SuperV1234/vr-game-checklist/issues) to discuss it, or directly contribute something new by opening a [pull request](https://github.com/SuperV1234/vr-game-checklist/pulls).
+
+
 
 ## Self-Promotion
 
